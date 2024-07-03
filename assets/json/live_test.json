@@ -1,0 +1,722 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "live": "all"
+    },
+    "errors": [],
+    "results": 7,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1201394,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-01T12:30:00+00:00",
+                "timestamp": 1719837000,
+                "periods": {
+                    "first": 1719837000,
+                    "second": null
+                },
+                "venue": {
+                    "id": 5734,
+                    "name": "Muqdisho Stadium",
+                    "city": "Mogadishu"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 13
+                }
+            },
+            "league": {
+                "id": 846,
+                "name": "Somali Premier League",
+                "country": "Somalia",
+                "logo": "https://media.api-sports.io/football/leagues/846.png",
+                "flag": "https://media.api-sports.io/flags/so.svg",
+                "season": 2023,
+                "round": "Regular Season - 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 16813,
+                    "name": "Midnimo",
+                    "logo": "https://media.api-sports.io/football/teams/16813.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16809,
+                    "name": "Gaadiidka",
+                    "logo": "https://media.api-sports.io/football/teams/16809.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": []
+        },
+        {
+            "fixture": {
+                "id": 1202439,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-03T09:00:00+00:00",
+                "timestamp": 1719997200,
+                "periods": {
+                    "first": 1719997200,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "TBC",
+                    "city": "TBC"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 3491,
+                    "name": "Raków Częstochowa",
+                    "logo": "https://media.api-sports.io/football/teams/3491.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3490,
+                    "name": "Puszcza Niepołomice",
+                    "logo": "https://media.api-sports.io/football/teams/3490.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3490,
+                        "name": "Puszcza Niepołomice",
+                        "logo": "https://media.api-sports.io/football/teams/3490.png"
+                    },
+                    "player": {
+                        "id": 40342,
+                        "name": "M. Cholewiak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3491,
+                        "name": "Raków Częstochowa",
+                        "logo": "https://media.api-sports.io/football/teams/3491.png"
+                    },
+                    "player": {
+                        "id": 262634,
+                        "name": "B. Lederman"
+                    },
+                    "assist": {
+                        "id": 63443,
+                        "name": "V. Kochergin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3491,
+                        "name": "Raków Częstochowa",
+                        "logo": "https://media.api-sports.io/football/teams/3491.png"
+                    },
+                    "player": {
+                        "id": 104845,
+                        "name": "J. C. Silva"
+                    },
+                    "assist": {
+                        "id": 3187,
+                        "name": "E. Otieno"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1214250,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-03T09:30:00+00:00",
+                "timestamp": 1719999000,
+                "periods": {
+                    "first": 1719999000,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 12
+                }
+            },
+            "league": {
+                "id": 1020,
+                "name": "Calcutta Premier Division",
+                "country": "India",
+                "logo": "https://media.api-sports.io/football/leagues/1020.png",
+                "flag": "https://media.api-sports.io/flags/in.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 21604,
+                    "name": "George Telegraph",
+                    "logo": "https://media.api-sports.io/football/teams/21604.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 24100,
+                    "name": "Calcutta Police",
+                    "logo": "https://media.api-sports.io/football/teams/24100.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": []
+        },
+        {
+            "fixture": {
+                "id": 1214252,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-03T09:30:00+00:00",
+                "timestamp": 1719999000,
+                "periods": {
+                    "first": 1719999000,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 16
+                }
+            },
+            "league": {
+                "id": 1020,
+                "name": "Calcutta Premier Division",
+                "country": "India",
+                "logo": "https://media.api-sports.io/football/leagues/1020.png",
+                "flag": "https://media.api-sports.io/flags/in.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 21599,
+                    "name": "Calcutta Customs",
+                    "logo": "https://media.api-sports.io/football/teams/21599.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 21608,
+                    "name": "Peerless",
+                    "logo": "https://media.api-sports.io/football/teams/21608.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21599,
+                        "name": "Calcutta Customs",
+                        "logo": "https://media.api-sports.io/football/teams/21599.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21599,
+                        "name": "Calcutta Customs",
+                        "logo": "https://media.api-sports.io/football/teams/21599.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1148762,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-03T08:00:00+00:00",
+                "timestamp": 1719993600,
+                "periods": {
+                    "first": 1719993600,
+                    "second": 1719997200
+                },
+                "venue": {
+                    "id": 7155,
+                    "name": "Jack McLaughlan Oval",
+                    "city": "Newcastle"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 88
+                }
+            },
+            "league": {
+                "id": 481,
+                "name": "Northern NSW NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/481.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 15"
+            },
+            "teams": {
+                "home": {
+                    "id": 10204,
+                    "name": "Edgeworth Eagles",
+                    "logo": "https://media.api-sports.io/football/teams/10204.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 10202,
+                    "name": "Broadmeadow Magic",
+                    "logo": "https://media.api-sports.io/football/teams/10202.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10204,
+                        "name": "Edgeworth Eagles",
+                        "logo": "https://media.api-sports.io/football/teams/10204.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1219659,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-03T09:00:00+00:00",
+                "timestamp": 1719997200,
+                "periods": {
+                    "first": 1719997200,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Halftime",
+                    "short": "HT",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 7536,
+                    "name": "Bicskei",
+                    "logo": "https://media.api-sports.io/football/teams/7536.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2404,
+                    "name": "Soroksar",
+                    "logo": "https://media.api-sports.io/football/teams/2404.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7536,
+                        "name": "Bicskei",
+                        "logo": "https://media.api-sports.io/football/teams/7536.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1222420,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-03T09:00:00+00:00",
+                "timestamp": 1719997200,
+                "periods": {
+                    "first": 1719997200,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "TBC",
+                    "city": "TBC"
+                },
+                "status": {
+                    "long": "Halftime",
+                    "short": "HT",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 640,
+                    "name": "Mlada Boleslav",
+                    "logo": "https://media.api-sports.io/football/teams/640.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3730,
+                    "name": "Vlašim",
+                    "logo": "https://media.api-sports.io/football/teams/3730.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 640,
+                        "name": "Mlada Boleslav",
+                        "logo": "https://media.api-sports.io/football/teams/640.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Vojta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 640,
+                        "name": "Mlada Boleslav",
+                        "logo": "https://media.api-sports.io/football/teams/640.png"
+                    },
+                    "player": {
+                        "id": 272145,
+                        "name": "L. Masek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 640,
+                        "name": "Mlada Boleslav",
+                        "logo": "https://media.api-sports.io/football/teams/640.png"
+                    },
+                    "player": {
+                        "id": 66390,
+                        "name": "L. Jawo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        }
+    ]
+}
