@@ -5,7 +5,7 @@ class League {
   String logo;
   String? flag;
   int season;
-  String round;
+  String round; 
 
   League({
     required this.id,

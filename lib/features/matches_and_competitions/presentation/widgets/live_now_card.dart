@@ -30,14 +30,17 @@ class LiveNowCard extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  const CircleAvatar(
+                  CircleAvatar(
                     radius: 10,
+                    foregroundImage: NetworkImage(matchUpInfo.league.logo),
                   ),
                   6.horizontalSpace,
                   Text(matchUpInfo.league.name),
                 ],
               ),
-              GameTimeWidget(time: matchUpInfo.fixture.status.elapsed!,)
+              GameTimeWidget(
+                time: matchUpInfo.fixture.status.elapsed ?? 000,
+              )
             ],
           ),
           12.verticalSpace,

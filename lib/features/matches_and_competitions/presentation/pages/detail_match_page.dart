@@ -79,8 +79,17 @@ class _DetailMatchPageState extends State<DetailMatchPage>
             Container(
               color: Colors.lightBlue,
             ),
-            Container(
-              color: Colors.lightBlue,
+            ListView(
+              children: [
+                SizedBox(
+                  height: 724,
+                  width: MediaQuery.of(context).size.width,
+                  child: SvgPicture.asset(
+                    "assets/img/Grass_1.svg",
+                    fit: BoxFit.fill,
+                  ),
+                ),
+              ],
             ),
             const TabStatsMatch(),
             Container(

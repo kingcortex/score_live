@@ -114,7 +114,7 @@ class _HomePageBodyState extends State<HomePageBody>
           12.verticalSpace,
           SizedBox(
             height: 176,
-            child: FutureBuilder<List<MatchUpInfo>>(
+            child: FutureBuilder<List<MatchUpInfo>?>(
               future: controller.getLiveFixtures(),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
